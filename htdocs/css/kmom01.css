@@ -14,3 +14,68 @@
 .rm-navbar-max {
     display: none;
 }
+
+html {
+  background-color: #333;
+}
+
+body {
+  background-color: #333;
+}
+
+.wrap-all {
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: beige;
+}
+
+.site-logo {
+  display: none;
+}
+
+.footer-column {
+  width: 33%;
+  float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-style: normal;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+div.author-byline {
+    border: 5px dotted #009;
+    padding: 2ex;
+    clear: both;
+    width: 700px;
+}
+
+div.author-byline img {
+    float: left;
+    margin-right: 1ex;
+    width: 80px;
+    height: 80px;
+}

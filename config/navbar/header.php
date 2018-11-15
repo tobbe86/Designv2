@@ -6,7 +6,7 @@ return [
     // Use for styling the menu
     "wrapper" => null,
     "class" => "my-navbar rm-default rm-desktop",
- 
+
     // Here comes the menu items
     "items" => [
         [
@@ -18,7 +18,7 @@ return [
             "text" => "Redovisning",
             "url" => "redovisning",
             "title" => "Redovisningstexter från kursmomenten.",
-            "submenu" => [
+            /*"submenu" => [
                 "items" => [
                     [
                         "text" => "Kmom01",
@@ -31,7 +31,7 @@ return [
                         "title" => "Redovisning för kmom02.",
                     ],
                 ],
-            ],
+            ],*/
         ],
         [
             "text" => "Om",
@@ -47,6 +47,11 @@ return [
             "text" => "Verktyg",
             "url" => "verktyg",
             "title" => "Verktyg och möjligheter för utveckling.",
+        ],
+        [
+            "text" => "Lek",
+            "url" => "testa",
+            "title" => "lek runt med olika konstruktioner",
         ],
     ],
 ];
