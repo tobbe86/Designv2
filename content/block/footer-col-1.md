@@ -1,3 +1,5 @@
-#### Footer col 1
+#### LÄNKAR
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Här hittar ni dbwebbs forum.</br>
+
+[Dbwebb Forum](https://dbwebb.se/forum/)

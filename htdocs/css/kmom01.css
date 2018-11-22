@@ -33,11 +33,36 @@ body {
   display: none;
 }
 
-.footer-column {
-  width: 33%;
-  float: left;
+/* min header */
+
+.site-logo-text a {
+    font-family: fantasy;
+    text-decoration: none;
+    color: black;
+    font-size: 4em;
 }
 
+.site-logo img {
+    width: 8em;
+    height: auto;
+}
+
+.region-header-col-1 {
+    text-align: center;
+    margin: 5em 0;
+}
+
+.region-header-col-2 {
+    text-align: center;
+    margin: 1em 0;
+}
+
+.region-header-col-3 {
+    float: right;
+    width: 5%;
+}
+
+/* navbar */
 ul {
     list-style-type: none;
     margin: 0;
@@ -61,11 +86,11 @@ li a {
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
 }
 
+/* Byline */
 div.author-byline {
     border: 5px dotted #009;
     padding: 2ex;
@@ -78,4 +103,46 @@ div.author-byline img {
     margin-right: 1ex;
     width: 80px;
     height: 80px;
+}
+
+/* min footer */
+.outer-wrap-footer {
+    background-color: rgb(111, 115, 92);
+    overflow: auto;
+    clear: both;
+}
+
+.inner-wrap-footer {
+    width: 80%;
+    margin: 0 auto;
+   padding: 5em;
+}
+
+.footer-column {
+    display: inline-block;
+    width: 25%;
+    text-align: left;
+    padding: 2em;
+    border-right: 1px solid beige;
+    color: beige;
+}
+
+.footer-column:last-child {
+    border-right: none;
+}
+
+.footer-column h4 {
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.region-footer {
+    text-align: center;
+    height: 262px;
+}
+
+.site-footer {
+    color: black;
+    padding: 2em;
+    margin-top: 1em;
 }

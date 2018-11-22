@@ -1,0 +1,402 @@
+/*!
+ * LESS version of the stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Its intention is to
+ * use kmom01.css and lessify the style and use this as a wrapper for the new
+ * style.
+ */
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+/*!
+ * Stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Fill it with style
+ * to style up the website so it is useable.
+ */
+/* Hide submenu, leave this to kmom02 */
+/*.rm-desktop ul {
+    display: none;
+}*/
+/* Hide responsive/mobile menu, leave this to kmom02 */
+/*.rm-navbar-max {
+    display: none;
+}*/
+/*html {
+  background-color: #333;
+}
+
+body {
+  background-color: #333;
+}*/
+/*.wrap-all {
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: #ccc;
+}
+
+.site-logo {
+  display: none;
+}*/
+/* min header */
+/*.site-logo-text a {
+    font-family: fantasy;
+    text-decoration: none;
+    color: black;
+    font-size: 4em;
+}
+
+.site-logo img {
+    width: 8em;
+    height: auto;
+}
+
+.region-header-col-1 {
+    text-align: center;
+    margin: 5em 0;
+}
+
+.region-header-col-2 {
+    text-align: center;
+    margin: 1em 0;
+}
+
+.region-header-col-3 {
+    float: right;
+    width: 5%;
+}*/
+/* navbar */
+/*ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-style: normal;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}*/
+/* Byline */
+/*div.author-byline {
+    border: 5px dotted #009;
+    padding: 2ex;
+    clear: both;
+    width: 700px;
+}
+
+div.author-byline img {
+    float: left;
+    margin-right: 1ex;
+    width: 80px;
+    height: 80px;
+}*/
+/* min footer */
+/*.outer-wrap-footer {
+    background-color: rgb(111, 115, 92);
+    overflow: auto;
+    clear: both;
+}
+
+.inner-wrap-footer {
+    width: 80%;
+    margin: 0 auto;
+   padding: 5em;
+}
+
+.footer-column {
+    display: inline-block;
+    width: 25%;
+    text-align: left;
+    padding: 2em;
+    border-right: 1px solid beige;
+    color: beige;
+}
+
+.footer-column:last-child {
+    border-right: none;
+}
+
+.footer-column h4 {
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.region-footer {
+    text-align: center;
+    height: 262px;
+}
+
+.site-footer {
+    color: black;
+    padding: 2em;
+    margin-top: 1em;
+}*/
+/**
+ * Style for the stylechooser.
+ */
+/**
+ * Variables
+ */
+/**
+ * Style
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+html {
+  overflow-y: scroll;
+  background-color: #333;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #333;
+}
+img {
+  max-width: 100%;
+}
+/*Länkar
+--------------------------------------------------------*/
+a {
+  color: #188e2d;
+}
+/* min header
+--------------------------------------------------------*/
+/*.site-logo-text a {
+    font-family: fantasy;
+    text-decoration: none;
+    color: black;
+    font-size: 4em;
+}
+
+.site-logo img {
+    width: 8em;
+    height: auto;
+}*/
+.region-header-col-1 {
+  text-align: center;
+  font-size: 150PX;
+  font-family: cursive;
+}
+.region-header-col-2 {
+  text-align: center;
+}
+.region-header-col-3 {
+  float: right;
+}
+/* Byline
+---------------------------------------------------------*/
+div.author-byline {
+  border: 5px dotted #009;
+  padding: 2ex;
+  clear: both;
+  width: 700px;
+}
+div.author-byline img {
+  float: left;
+  margin-right: 1ex;
+  width: 80px;
+  height: 80px;
+}
+/* min footer
+--------------------------------------------------------*/
+.outer-wrap-footer {
+  background-color: #6f735c;
+  overflow: auto;
+  clear: both;
+}
+.inner-wrap-footer {
+  width: 80%;
+  margin: 0 auto;
+  padding: 6em;
+}
+.footer-column {
+  display: inline-block;
+  width: 25%;
+  text-align: left;
+  padding: 2em;
+  border-right: 1px solid beige;
+  color: beige;
+}
+.footer-column:last-child {
+  border-right: none;
+}
+.footer-column h4 {
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+.region-footer {
+  text-align: center;
+  height: 262px;
+}
+.site-footer {
+  color: black;
+  padding: 2em;
+  margin-top: 1em;
+}
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Variables
+ */
+/**
+ * General layout
+ */
+/*.inner-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+}*/
+.wrap-all {
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: beige;
+}
+.site-logo {
+  display: none;
+}
+/*main sidebar
+-------------------------------------------------*/
+.inner-wrap-main {
+  overflow: auto;
+}
+.region-main {
+  width: 70%;
+  margin-left: 10%;
+  float: left;
+  overflow: auto;
+}
+.region-main.has-sidebar {
+  margin-left: 0;
+}
+.region-main.has-sidebar-left.has-sidebar-right {
+  width: 60%;
+}
+.region-sidebar-right {
+  width: 30%;
+  float: left;
+}
+.region-sidebar-left {
+  width: 30%;
+  float: left;
+}
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+  width: 20%;
+}
+/* navbar
+-------------------------------------------------*/
+.rm-desktop ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-style: normal;
+  font-family: monospace;
+  font-size: 15px;
+}
+.rm-desktop li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.rm-desktop li a:hover {
+  background-color: #188e2d;
+  color: beige;
+}
+.rm-mobile a {
+  color: beige;
+  font-family: monospace;
+  font-variant: small-caps;
+  font-size: 20px;
+}
+/**
+ * Layout for responsive style through media queries.
+ */
+@media screen and (max-width: 1500px) {
+  .site-logo {
+    display: none;
+  }
+}
+/*Navbar*/
+@media screen and (max-width: 960px) {
+  .rm-desktop {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+}
+@media screen and (max-width: 800px) {
+  .region-header-col-1 .region-header-col-3 {
+    width: 15%;
+  }
+  .region-header-col-2 {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .rm-desktop {
+    display: none;
+  }
+}
+/**
+ * Show off the regions used in the website, to ease styling.
+ */
+.regions .outer-wrap {
+  background-color: #f4e3c9;
+  border: 1px solid #e3b774;
+}
+.regions .inner-wrap {
+  background-color: #f4e0e9;
+  border: 1px solid #d995b4;
+}
+.regions .region-header-col-1,
+.regions .region-header-col-2,
+.regions .region-header-col-3,
+.regions .region-flash,
+.regions .region-breadcrumb,
+.regions .region-flash-message,
+.regions .region-columns-above,
+.regions .region-main,
+.regions .region-after-main,
+.regions .region-columns-below,
+.regions .region-sidebar-left,
+.regions .region-sidebar-right,
+.regions .region-footer,
+.regions .region-footer-column-1,
+.regions .region-footer-column-2,
+.regions .region-footer-column-3 {
+  background-color: #b5dce1;
+  border: 1px solid #6cbac4;
+  color: #111;
+}
+/**
+ * My own settings, not currently in their own module.
+ */
