@@ -14,13 +14,13 @@ return [
         "data" => [
             "baseTitle" => " | Design",
             "bodyClass" => null,
-            "favicon" => "favicon.ico",
+            "favicon" => "image/favicon.ico",
             "htmlClass" => null,
             "lang" => "sv",
             "stylesheets" => [
                 // Change here to set another default stylesheet
                 //"css/dbwebb-se.min.css",
-                "css/kmom02.css",
+                "css/kmom03.css",
             ],
             "javascripts" => [
                 "js/responsive-menu.js",
@@ -35,8 +35,8 @@ return [
             "template" => "anax/v2/header/site_logo",
             "data" => [
                 "class" => "large",
-                "siteLogo"      => "image/theme/leaf_256x256.png",
-                "siteLogoAlt"   => "Löv",
+                "siteLogo"      => "",
+                "siteLogoAlt"   => "",
             ],
         ],
         [
@@ -44,8 +44,8 @@ return [
             "template" => "anax/v2/header/site_logo_text",
             "data" => [
                 "homeLink"      => "",
-                "siteLogoText"  => "design",
-                "siteLogoTextIcon" => "image/theme/leaf_40x40.png",
+                "siteLogoText"  => "Thobias Bäckman",
+                "siteLogoTextIcon" => "image/snowboarder.png",
                 "siteLogoTextIconAlt" => "Löv-bild",
             ],
         ],

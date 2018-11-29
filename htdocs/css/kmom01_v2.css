@@ -180,30 +180,6 @@ img {
 a {
   color: #188e2d;
 }
-/* min header
---------------------------------------------------------*/
-/*.site-logo-text a {
-    font-family: fantasy;
-    text-decoration: none;
-    color: black;
-    font-size: 4em;
-}
-
-.site-logo img {
-    width: 8em;
-    height: auto;
-}*/
-.region-header-col-1 {
-  text-align: center;
-  font-size: 150PX;
-  font-family: cursive;
-}
-.region-header-col-2 {
-  text-align: center;
-}
-.region-header-col-3 {
-  float: right;
-}
 /* Byline
 ---------------------------------------------------------*/
 div.author-byline {
@@ -217,42 +193,6 @@ div.author-byline img {
   margin-right: 1ex;
   width: 80px;
   height: 80px;
-}
-/* min footer
---------------------------------------------------------*/
-.outer-wrap-footer {
-  background-color: #6f735c;
-  overflow: auto;
-  clear: both;
-}
-.inner-wrap-footer {
-  width: 80%;
-  margin: 0 auto;
-  padding: 6em;
-}
-.footer-column {
-  display: inline-block;
-  width: 25%;
-  text-align: left;
-  padding: 2em;
-  border-right: 1px solid beige;
-  color: beige;
-}
-.footer-column:last-child {
-  border-right: none;
-}
-.footer-column h4 {
-  text-transform: uppercase;
-  font-family: sans-serif;
-}
-.region-footer {
-  text-align: center;
-  height: 262px;
-}
-.site-footer {
-  color: black;
-  padding: 2em;
-  margin-top: 1em;
 }
 /**
  * Layout style for general structure of header, navbar, main, footer
@@ -279,6 +219,30 @@ div.author-byline img {
 }
 .site-logo {
   display: none;
+}
+/* min header
+--------------------------------------------------------*/
+/*.site-logo-text a {
+    font-family: fantasy;
+    text-decoration: none;
+    color: black;
+    font-size: 4em;
+}
+
+.site-logo img {
+    width: 8em;
+    height: auto;
+}*/
+.region-header-col-1 {
+  text-align: center;
+  font-size: 150PX;
+  font-family: cursive;
+}
+.region-header-col-2 {
+  text-align: center;
+}
+.region-header-col-3 {
+  float: right;
 }
 /*main sidebar
 -------------------------------------------------*/
@@ -337,6 +301,42 @@ div.author-byline img {
   font-family: monospace;
   font-variant: small-caps;
   font-size: 20px;
+}
+/* min footer
+--------------------------------------------------------*/
+.outer-wrap-footer {
+  background-color: #6f735c;
+  overflow: auto;
+  clear: both;
+}
+.inner-wrap-footer {
+  width: 80%;
+  margin: 0 auto;
+  padding: 6em;
+}
+.footer-column {
+  display: inline-block;
+  width: 25%;
+  text-align: left;
+  padding: 2em;
+  border-right: 1px solid beige;
+  color: beige;
+}
+.footer-column:last-child {
+  border-right: none;
+}
+.footer-column h4 {
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+.region-footer {
+  text-align: center;
+  height: 262px;
+}
+.site-footer {
+  color: black;
+  padding: 2em;
+  margin-top: 1em;
 }
 /**
  * Layout for responsive style through media queries.
