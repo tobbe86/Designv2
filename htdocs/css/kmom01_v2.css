@@ -164,7 +164,6 @@ div.author-byline img {
  */
 html {
   overflow-y: scroll;
-  background-color: #333;
 }
 body {
   margin: 0;
@@ -179,20 +178,6 @@ img {
 --------------------------------------------------------*/
 a {
   color: #188e2d;
-}
-/* Byline
----------------------------------------------------------*/
-div.author-byline {
-  border: 5px dotted #009;
-  padding: 2ex;
-  clear: both;
-  width: 700px;
-}
-div.author-byline img {
-  float: left;
-  margin-right: 1ex;
-  width: 80px;
-  height: 80px;
 }
 /**
  * Layout style for general structure of header, navbar, main, footer
@@ -237,6 +222,10 @@ div.author-byline img {
   text-align: center;
   font-size: 150PX;
   font-family: cursive;
+  margin-top: 120px;
+  margin-bottom: 120px
+    display: inline;
+  float: left;
 }
 .region-header-col-2 {
   text-align: center;
@@ -275,6 +264,10 @@ div.author-byline img {
 }
 /* navbar
 -------------------------------------------------*/
+.rm-navbar ul {
+  font-variant-caps: petite-caps;
+  font-size: larger;
+}
 .rm-desktop ul {
   list-style-type: none;
   margin: 0;
@@ -287,7 +280,6 @@ div.author-byline img {
 }
 .rm-desktop li a {
   display: block;
-  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -295,6 +287,9 @@ div.author-byline img {
 .rm-desktop li a:hover {
   background-color: #188e2d;
   color: beige;
+}
+.my-navbar li:last-child {
+  border-right: 1px solid #a3a28d;
 }
 .rm-mobile a {
   color: beige;

@@ -1,5 +1,5 @@
 /*!
- * Stylesheet for design kmom03.
+ * Stylesheet for design kmom04.
  *
  * This stylesheet is for the design course and kmom02 where we use LESS.
  */
@@ -4606,12 +4606,14 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  */
 html {
   overflow-y: scroll;
+  background-color: #424242;
 }
 body {
   margin: 0;
   padding: 0;
-  background-color: #464646;
-  font: 16px/1.5 "gill sans";
+  color: #333;
+  background-color: #fff;
+  font: 16px/1.5 "sans-serif";
 }
 p {
   margin-bottom: 24px;
@@ -4651,7 +4653,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "gill sans";
+  font-family: "serif";
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -4775,7 +4777,7 @@ code,
 kbd,
 samp,
 .code {
-  font-family: "gill sans";
+  font-family: "monospace";
 }
 code,
 samp {
