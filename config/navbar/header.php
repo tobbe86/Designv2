@@ -64,9 +64,9 @@ return [
             "title" => "Rapporter.",
         ],
         [
-            "text" => "Om",
-            "url" => "om",
-            "title" => "Om denna webbplats.",
+            "text" => "Blogg",
+            "url" => "blogg",
+            "title" => "Min Blogg.",
         ],
         [
             "text" => "Styleväljare",

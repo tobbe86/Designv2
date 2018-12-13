@@ -4607,6 +4607,10 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 html {
   overflow-y: scroll;
 }
+.region-header-col-2 {
+  text-align: center;
+  font-variant-caps: petite-caps;
+}
 body {
   margin: 0;
   padding: 0;

@@ -1,5 +1,5 @@
 /*!
- * Stylesheet for design kmom04.
+ * Stylesheet for design kmom05.
  *
  * This stylesheet is for the design course and kmom02 where we use LESS.
  */
@@ -4611,6 +4611,18 @@ a.rm-button.rm-clicked .rm-button-face-2 {
      * Enable all default typographic elements.
      */
 }
+/**
+ * Figure and figcaption for images and other media using figure/figcaption
+ */
+/**
+ * Figure with ASCIINEMA
+ */
+/**
+ * Figure with Codepen
+ */
+/** --------------------------------------------------------------
+ * Figure through .figure
+ */
 .hgrid .inner-wrap {
   background-image: url("../img/magic-number-24px.png");
 }
@@ -5324,19 +5336,24 @@ div.author-byline img {
   border: 1px solid #6cbac4;
   color: #111;
 }
+/* min header
+--------------------------------------------------------*/
+.region-header-col-1 {
+  text-align: center;
+  font-size: 150PX;
+  font-family: cursive;
+  margin-top: 120px;
+  margin-bottom: 120px
+    display: inline;
+  float: left;
+}
+.region-header-col-2 {
+  text-align: center;
+  font-variant-caps: petite-caps;
+}
+.region-header-col-3 {
+  float: right;
+}
 /**
  * My own settings, not currently in their own module.
  */
-.rm-desktop li a:hover {
-  background-color: #ffffff;
-  color: black;
-}
-body {
-  background-color: #ffffff;
-  color: #000000;
-}
-.inner-wrap {
-  max-width: 1100px;
-  margin: 0 auto;
-  background-color: #EEEEEE;
-}

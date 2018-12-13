@@ -4747,19 +4747,14 @@ a {
 .site-logo {
   display: none;
 }
+.baloo {
+  float: left;
+}
+.balootxt {
+  float: right;
+}
 /* min header
 --------------------------------------------------------*/
-/*.site-logo-text a {
-    font-family: fantasy;
-    text-decoration: none;
-    color: black;
-    font-size: 4em;
-}
-
-.site-logo img {
-    width: 8em;
-    height: auto;
-}*/
 .region-header-col-1 {
   text-align: center;
   font-size: 150PX;
@@ -4771,6 +4766,7 @@ a {
 }
 .region-header-col-2 {
   text-align: center;
+  font-variant-caps: petite-caps;
 }
 .region-header-col-3 {
   float: right;
@@ -4829,6 +4825,7 @@ a {
 .rm-desktop li a:hover {
   background-color: #188e2d;
   color: beige;
+  font-variant-caps: petite-caps;
 }
 .my-navbar li:last-child {
   border-right: 1px solid #a3a28d;
