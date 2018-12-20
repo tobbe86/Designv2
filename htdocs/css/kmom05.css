@@ -4335,7 +4335,7 @@ template {
 ---------------------------------------------------------*/
 div.author-byline {
   border: 2px solid #009;
-  border-radius: 5px;
+  border-radius: 2px;
   padding: 2ex;
   clear: both;
   width: 700px;
@@ -4655,6 +4655,9 @@ H4 {
 img {
   max-width: 100%;
 }
+figure.figure.right {
+  float: left;
+}
 /*Länkar
 --------------------------------------------------------*/
 a {
@@ -4964,15 +4967,16 @@ hr::after {
 /* Byline
 ---------------------------------------------------------*/
 div.author-byline {
-  border: 2px solid #009;
+  border: 1px inset black;
   border-radius: 5px;
   padding: 2ex;
   clear: both;
-  width: 700px;
-  float: right;
+  width: 500px;
+  margin-bottom: 10px;
+  margin-left: 190px;
+  margin-right: 290px;
 }
 div.author-byline img {
-  float: left;
   margin-right: 1ex;
   width: 80px;
   height: 80px;
@@ -5340,9 +5344,9 @@ div.author-byline img {
 --------------------------------------------------------*/
 .region-header-col-1 {
   text-align: center;
-  font-size: 150PX;
+  font-size: 15PX;
   font-family: cursive;
-  margin-top: 120px;
+  margin-top: 40px;
   margin-bottom: 120px
     display: inline;
   float: left;

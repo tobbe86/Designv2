@@ -74,14 +74,23 @@ return [
             "title" => "Välj stylesheet.",
         ],
         [
-            "text" => "Verktyg",
+            "text" => "Verktyg/Lek",
             "url" => "verktyg",
             "title" => "Verktyg och möjligheter för utveckling.",
-        ],
-        [
-            "text" => "Lek",
-            "url" => "testa",
-            "title" => "lek runt med olika konstruktioner",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Lek",
+                        "url" => "testa",
+                        "title" => "lek runt med olika konstruktioner",
+                      ],
+                      [
+                          "text" => "Sliders",
+                          "url" => "sliders",
+                          "title" => "se slidern",
+                        ],
+                  ],
+              ],
         ],
     ],
 ];

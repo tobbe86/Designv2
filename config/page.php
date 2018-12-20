@@ -20,7 +20,7 @@ return [
             "stylesheets" => [
                 // Change here to set another default stylesheet
                 //"css/dbwebb-se.min.css",
-                "css/kmom05.min.css",
+                "kmom06-designelement.min.css",
             ],
             "javascripts" => [
                 "js/responsive-menu.js",
@@ -44,8 +44,8 @@ return [
             "template" => "anax/v2/header/site_logo_text",
             "data" => [
                 "homeLink"      => "",
-                "siteLogoText"  => "Thobias Bäckman",
-                "siteLogoTextIcon" => "image/snowboarder.png",
+                "siteLogoText"  => "TB",
+                //"siteLogoTextIcon" => "image/snowboarder.png",
                 "siteLogoTextIconAlt" => "Löv-bild",
             ],
         ],

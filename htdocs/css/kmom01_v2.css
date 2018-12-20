@@ -212,23 +212,29 @@ a {
   float: right;
 }
 /* min header
---------------------------------------------------------*/
+--------------------------------------------------------
+
 .region-header-col-1 {
-  text-align: center;
-  font-size: 150PX;
-  font-family: cursive;
-  margin-top: 120px;
-  margin-bottom: 120px
+    text-align: center;
+    font-size: 150PX;
+    font-family: cursive;
+    margin-top: 120px;
+    margin-bottom: 120px
     display: inline;
-  float: left;
+    float: left;
+    //width: 98.95833333%;
+    //margin-left: .52083333%;
+    //margin-right: .52083333%;
 }
+
 .region-header-col-2 {
-  text-align: center;
-  font-variant-caps: petite-caps;
+    text-align: center;
+    font-variant-caps: petite-caps;
 }
+
 .region-header-col-3 {
-  float: right;
-}
+    float: right;
+} */
 /*main sidebar
 -------------------------------------------------*/
 .inner-wrap-main {
@@ -236,8 +242,8 @@ a {
 }
 .region-main {
   width: 70%;
-  margin-left: 10%;
-  float: left;
+  margin-left: 11%;
+  float: right;
   overflow: auto;
 }
 .region-main.has-sidebar {
@@ -269,7 +275,6 @@ a {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
   font-style: normal;
   font-family: monospace;
   font-size: 15px;
